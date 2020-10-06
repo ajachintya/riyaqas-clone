@@ -1,0 +1,53 @@
+.serviceCard {
+    box-sizing: border-box;
+    padding: 15px;
+    width: 250px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 10px 20px rgb(243, 243, 243);
+}
+
+.cardImg {
+    margin-left: -20px;
+    height: 80px;
+    width: 80px;
+}
+
+.cardHeading {
+    font-size: 1.35rem;
+    color: #01358D;
+    font-weight: bold;
+}
+
+.cardContent {
+    margin: 10px 0px;
+    font-size: 0.9rem;
+    line-height: 25px;
+    color: rgb(83, 86, 95);
+}
+
+.cardArrow {
+    color: white;
+    text-align: end;
+    font-size: 1.7rem;
+    border-left: 2px solid white;
+    margin-left: 0px;
+    margin-right: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.serviceCard:hover .cardArrow {
+    border-left: 2px solid greenyellow;
+    color: greenyellow;
+    margin-left: -15px;
+    margin-right: 0px;
+}
+
+.serviceCard:hover {
+    box-shadow: 0px 10px 20px lightgrey;
+}
+
+@media (max-width: 616px){
+    .serviceCard {
+        width: 100%;
+    }
+}
