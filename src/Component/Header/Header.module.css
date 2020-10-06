@@ -4,16 +4,16 @@
     height: 70px;
     border: 1px solid black;
     position: fixed;
+    display: flex;
+    background-color: white;
     z-index: 10;
 }
 
 .div{
     display: flex;
-    flex-direction: row;
 }
 
 .img{
-    display: inline-block;
     width:150px;
     height: 50px;
     margin-top: 10px;
