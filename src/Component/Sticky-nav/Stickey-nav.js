@@ -7,11 +7,11 @@ const StickeyNav = (props) => {
     return (
         <div className="Stickey-nav">
             <div className="section1 extend">
-                <img src={dot} alt="Dot"/>
+                <img className="stickeyImg" src={dot} alt="Dot"/>
                 <span>CODINGEEK</span>
             </div>
             <div className="section2 extend">
-                <img src={cart} alt="Cart"/>
+                <img className="stickeyImg" src={cart} alt="Cart"/>
                 <span>BUY NOW</span>
             </div>
         </div>
