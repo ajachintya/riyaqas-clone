@@ -4,6 +4,7 @@ import Footer from './Component/Footer/Footer'
 import './App.css';
 import StickeyNav from './Component/Sticky-nav/Stickey-nav';
 import ServiceComponent from './Component/ServiceComponent/ServiceComponent';
+import ClientSay from './Container/ClientSay/ClientSay';
 
 
 class App extends Component{
@@ -33,6 +34,7 @@ class App extends Component{
         <Header stickey={this.state.stickey}/>
         <StickeyNav />
         <ServiceComponent />
+        <ClientSay />
         <Footer />
       </div>
     );

@@ -1,0 +1,88 @@
+.rightclientCard {
+    width: 400px;
+    background-color: white;
+    height: 302px;
+    padding: 40px 20px 55px 33px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 8px 15px #e0e0e0;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.midclientCard {
+    width: 400px;
+    background-color: white;
+    height: 282px;
+    padding: 35px 20px 55px 33px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 10px 15px #e0e0e0;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.leftclientCard {
+    width: 400px;
+    background-color: white;
+    height: 242px;
+    padding: 25px 20px 55px 33px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 10px 15px #e0e0e0;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.rightSlide {
+    right: 0;
+    z-index: 9;
+}
+
+.midSlide {
+    left: 17%;
+    z-index: 5;
+    top: 10px;
+}
+
+.leftSlide {
+    top: 25px;
+}
+
+.cardUser {
+    margin-left: 15px;
+}
+
+.cardUsername {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.cardContent {
+    width: 100%;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    line-height: 30px;
+}
+
+.rightcardImg {
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+}
+
+.midcardImg {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+}
+
+.leftcardImg {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
