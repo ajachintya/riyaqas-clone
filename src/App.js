@@ -5,7 +5,7 @@ import './App.css';
 import StickeyNav from './Component/Sticky-nav/Stickey-nav';
 import ServiceComponent from './Component/ServiceComponent/ServiceComponent';
 import ClientSay from './Container/ClientSay/ClientSay';
-
+import NewsLatter from './Component/NewsLatter/NewsLatter';
 
 class App extends Component{
   state = {
@@ -35,6 +35,7 @@ class App extends Component{
         <StickeyNav />
         <ServiceComponent />
         <ClientSay />
+        <NewsLatter />
         <Footer />
       </div>
     );

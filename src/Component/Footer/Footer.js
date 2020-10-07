@@ -32,7 +32,7 @@ export default function Footer() {
             &nbsp; <spam style={{ color: "grey" }}>by</spam>{" "}
             <spam className={classes.Geek}>Codingeek.</spam>
           </div>
-          <div>
+          <div className={classes.iconParent}>
             <spam className={classes.icon}>
               <i
                 style={{ padding: "10px" }}

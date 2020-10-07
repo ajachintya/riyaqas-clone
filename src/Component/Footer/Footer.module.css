@@ -37,4 +37,14 @@
     transition: 0.4s;
     cursor: pointer;
     color:#f9556d ;
+}   
+
+@media (max-width: 990px) {
+    .Foot{
+        flex-direction: column;
+    }
+    .iconParent{
+        margin-top: 50px;
+    }
+
 }
