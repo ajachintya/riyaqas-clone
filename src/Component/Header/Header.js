@@ -7,8 +7,15 @@ import Neviagtion from './Navigation/Navigation';
 
 export default class Header extends Component {
     render() {
+        var headClass = [classes.Header];
+        if(this.props.stickey === true){
+          headClass.push(classes.stickey);
+        }
+
+        headClass = headClass.join(' ');
+
         return (
-          <div className={classes.Header}>
+          <div className={headClass}>
             <img className={classes.img} src={photo} alt="logo"></img>
             <div className={classes.div}>
               <Neviagtion name="Home" />
