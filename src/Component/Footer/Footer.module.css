@@ -31,10 +31,11 @@
     padding: 13px 6px;
     box-shadow: 2px 2px 6px 0px grey;
     background-color:white;
+     transition: 0.5s;
 }
 
 .icon:hover{
-    transition: 0.4s;
+   
     cursor: pointer;
     color:#f9556d ;
 }   
@@ -46,5 +47,12 @@
     .iconParent{
         margin-top: 50px;
     }
+    
 
+}
+
+@media (max-width: 600px){
+    .Nav{
+      flex-direction: column;
+    }
 }

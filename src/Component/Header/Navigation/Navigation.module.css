@@ -5,12 +5,13 @@
     line-height: 90px;
     font-family: sans-serif;
     margin-left: 50px;
+    transition: all .3s ease-in-out;
+
 
 }
 
 .Nevigation:hover{
     cursor: pointer;
     text-decoration: underline;
-    transition: all .3s ease-in;
     color: #f9556d;   
 }
