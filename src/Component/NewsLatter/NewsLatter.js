@@ -3,7 +3,7 @@ import classes from './NewsLatter.module.css';
 
 export default function NewsLatter() {
     return (
-      <div className={classes.NewsLatter}>
+      <div className={classes.NewsLatter} data-aos="fade-left" data-aos-duration="1500">
         <div>
           <h1 className={classes.Heading}>
             Get our latest <spam style={{ color: "#f9556d" }}>Newslatter</spam>

@@ -9,6 +9,7 @@
     box-shadow: 0px 8px 15px #e0e0e0;
     position: absolute;
     border-radius: 5px;
+    transition: 1s ease-in-out;
 }
 
 .midclientCard {
@@ -22,6 +23,7 @@
     box-shadow: 0px 10px 15px #e0e0e0;
     position: absolute;
     border-radius: 5px;
+    transition: 1s ease-in-out;
 }
 
 .leftclientCard {
@@ -35,6 +37,7 @@
     box-shadow: 0px 10px 15px #e0e0e0;
     position: absolute;
     border-radius: 5px;
+    transition: 1s ease-in-out;
 }
 
 .rightSlide {
@@ -43,12 +46,13 @@
 }
 
 .midSlide {
-    left: 17%;
+    right: 18%;
     z-index: 5;
     top: 10px;
 }
 
 .leftSlide {
+    right: 34%;
     top: 25px;
 }
 
@@ -86,3 +90,75 @@
     height: 60px;
     border-radius: 50%;
 }
+
+@media (max-width: 863px) {
+    .midSlide {
+        right: 15%;
+    }
+
+    .leftSlide {
+        right: 28%;
+    }
+}
+
+@media (max-width: 800px) {
+    .midSlide {
+        right: 10%;
+    }
+
+    .leftSlide {
+        right: 20%;
+    }
+}
+
+@media (max-width: 600px) {
+    .midSlide {
+        right: 5%;
+    }
+
+    .leftSlide {
+        right: 10%;
+    }
+}
+
+@media (max-width: 525px) {
+    .rightclientCard,.leftclientCard,.midclientCard{
+        width: 350px;
+    }
+}
+
+@media (max-width: 470px) {
+    .rightclientCard,.leftclientCard,.midclientCard{
+        width: 325px;
+    }
+}
+
+@media (max-width: 440px) {
+    .rightclientCard,.leftclientCard,.midclientCard{
+        width: 300px;
+    }
+}
+
+@media (max-width: 376px) {
+    .midSlide,.leftSlide {
+        right: 0px;
+        top: 0px;
+    }
+
+    .rightclientCard,.leftclientCard,.midclientCard {
+        width: 300px;
+        background-color: white;
+        height: 302px;
+        padding: 40px 20px 55px 33px;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow: 0px 8px 15px #e0e0e0;
+        position: absolute;
+        border-radius: 5px;
+        transition: 1s ease-in-out;
+    }
+}
+
+
+    

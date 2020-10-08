@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import Header from './Component/Header/Header';
 import Footer from './Component/Footer/Footer'
 import './App.css';
-import StickeyNav from './Component/Sticky-nav/Stickey-nav';
 import ServiceComponent from './Component/ServiceComponent/ServiceComponent';
 import ClientSay from './Container/ClientSay/ClientSay';
 import NewsLatter from './Component/NewsLatter/NewsLatter';
@@ -32,7 +31,9 @@ class App extends Component{
     return (
       <div className="App">
         <Header stickey={this.state.stickey}/>
-        <StickeyNav />
+        {/* <div style={{height: '80vh',width: '100vw'}}>
+
+        </div> */}
         <ServiceComponent />
         <ClientSay />
         <NewsLatter />

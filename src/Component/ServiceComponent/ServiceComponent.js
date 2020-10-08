@@ -6,7 +6,7 @@ import ChecklistImg from '../../assets/images/checklist.png';
 const ServiceComponent = () => {
     return (
         <div>
-            <div className="heading">
+            <div className="heading" data-aos="fade-down" data-aos-duration="1200">
                 What <div style={{display: 'inline',color: '#F9556D'}}>Service</div> We are Providing?
                 <div className="subHeading">
                 Offer your business with the best assistance for growth.

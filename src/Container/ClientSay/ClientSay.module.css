@@ -10,6 +10,7 @@
     position: relative;
     box-sizing: border-box;
     height: 285px;
+    margin: auto;
 }
 
 .clientSayContent {
@@ -45,3 +46,42 @@
     color: grey;
     font-size: 0.9rem;
 }
+
+@media (max-width: 995px){
+    .clientSay {
+        flex-direction: column;
+    }
+
+    .clientSaySlide {
+        order: 2;
+        margin-top: 20px;
+        width: 80%;
+    }
+
+    .clientSayButton {
+        flex-direction: row;
+        margin: auto;
+        margin-top: 40px;
+        order: 3;
+    }
+
+    .clientSayContent {
+        margin: auto;
+        width: 100%;
+        order: 1;
+        text-align: center;
+    }
+}
+
+@media (max-width: 725px) {
+    .clientSaySlide {
+        width: 90%;
+    }
+}
+
+@media (max-width: 680px) {
+    .clientSaySlide {
+        width: 100%;
+    }
+}
+
