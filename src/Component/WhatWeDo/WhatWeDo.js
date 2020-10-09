@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './WhatWeDo.module.css';
+import weDoImg from '../../assets/images/WhatWeDo.jpg';
 
 const WhatWeDo = (props) => {
     return (
@@ -12,7 +13,7 @@ const WhatWeDo = (props) => {
                     At Princeton Hive, we have put in a lot of thought and effort to provide you with a <b>simple UI, compréhensive analytics for intelligent engagement.</b>
                 </div>
             </div>
-            <div className={classes.whatWeDoImg} data-aos="flip-left" data-aos-duration="1200">
+            <div className={classes.whatWeDoImg} style={{backgroundImage: `url(${weDoImg})`}} data-aos="flip-left" data-aos-duration="1200">
             </div>
         </div>
     );

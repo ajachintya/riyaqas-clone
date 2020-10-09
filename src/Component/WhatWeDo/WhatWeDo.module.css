@@ -28,7 +28,6 @@
 
 .whatWeDoImg {
     width: 50%;
-    background-image: url('/WhatWeDo.jpg');
     background-size: cover;
     box-shadow: inset 0px 0px 50px 0px white;
 }
