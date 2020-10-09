@@ -1,7 +1,11 @@
+.mainClientSay {
+    width: 100%;
+}
+
 .clientSay {
     width: 80%;
     margin: auto;
-    margin-top: 100px;
+    padding-top: 100px;
     display: flex;
 }
 

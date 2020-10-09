@@ -1,6 +1,14 @@
+.serviceComponent {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-image: url('/serviceBg.jpg');
+    background-size: cover;
+    box-shadow: inset 0px -20px 20px 5px white;
+}
+
 .heading {
     width: 500px;
-    margin: 130px auto;
+    margin: auto;
     font-size: 2.7rem;
     color: #01358D;
     font-weight: bold;
@@ -18,7 +26,7 @@
     display: flex;
     margin: 0px 50px;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 @media (max-width: 616px) {

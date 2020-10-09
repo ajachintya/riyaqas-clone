@@ -31,9 +31,6 @@ class App extends Component{
     return (
       <div className="App">
         <Header stickey={this.state.stickey}/>
-        {/* <div style={{height: '80vh',width: '100vw'}}>
-
-        </div> */}
         <ServiceComponent />
         <ClientSay />
         <NewsLatter />
