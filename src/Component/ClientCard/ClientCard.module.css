@@ -14,7 +14,7 @@
 
 .midclientCard {
     width: 400px;
-    background-color: white;
+    background-color: rgb(236, 236, 236);
     height: 282px;
     padding: 35px 20px 55px 33px;
     box-sizing: border-box;
@@ -28,7 +28,7 @@
 
 .leftclientCard {
     width: 400px;
-    background-color: white;
+    background-color: rgb(228, 228, 228);
     height: 242px;
     padding: 25px 20px 55px 33px;
     box-sizing: border-box;
