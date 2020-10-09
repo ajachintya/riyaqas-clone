@@ -41,7 +41,7 @@ class ClientSay extends Component{
                     </button>
                 </div>
 
-                <div className={classes.clientSayContent} data-aos="fade-left" data-aos-duration="1500">
+                <div className={classes.clientSayContent} data-aos="fade-down" data-aos-duration="1500">
                     <div className={classes.clientSayHeading}>
                         <div style={{display: 'inline',color: "#01358D"}}>What Our </div><div style={{color: "#F9556D",display: 'inline'}}>Client Say?</div>
                     </div>
