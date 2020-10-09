@@ -14,3 +14,13 @@
     color: #f9556d;   
 }
 
+@media (max-width:1100px){
+    .Nevigation{
+        margin-left: 0px;
+        display: block;
+
+        /* background-color: white; */
+        /* width: 600%; */
+        line-height: 50px;
+    }
+}
