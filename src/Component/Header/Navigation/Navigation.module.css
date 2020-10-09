@@ -1,7 +1,7 @@
 .Nevigation{
-    color: #01358D;
+    color: #F7CA39;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 90px;
     font-family: sans-serif;
     margin-left: 50px;
@@ -11,16 +11,12 @@
 .Nevigation:hover{
     cursor: pointer;
     text-decoration: underline;
-    color: #f9556d;   
+    color: #643765;   
 }
 
-@media (max-width:1100px){
+@media(max-width:510px){
     .Nevigation{
-        margin-left: 0px;
-        display: block;
-
-        /* background-color: white; */
-        /* width: 600%; */
-        line-height: 50px;
+        font-size: 15px;
+        margin-left: 30px;
     }
 }
