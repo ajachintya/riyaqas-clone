@@ -5,6 +5,8 @@ import './App.css';
 import ServiceComponent from './Component/ServiceComponent/ServiceComponent';
 import ClientSay from './Container/ClientSay/ClientSay';
 import NewsLatter from './Component/NewsLatter/NewsLatter';
+import Intro from './Component/Intro/Intro';
+import WhatWeDo from './Component/WhatWeDo/WhatWeDo';
 
 class App extends Component{
   state = {
@@ -32,6 +34,8 @@ class App extends Component{
       <div className="App">
         <Header stickey={this.state.stickey}/>
         <ServiceComponent />
+        <Intro />
+        <WhatWeDo />
         <ClientSay />
         <NewsLatter />
         <Footer />

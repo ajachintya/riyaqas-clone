@@ -1,7 +1,6 @@
 import React from 'react';
 import './ServiceComponent.css';
 import ServiceCard from './ServiceCard/ServiceCard';
-import ChecklistImg from '../../assets/images/checklist.png'; 
 import useableImg from '../../assets/images/useable.png';
 import supportImg from '../../assets/images/support1.png';
 import customiseImg from '../../assets/images/customise.png';
