@@ -21,11 +21,16 @@
     margin-right: 30px;
     color: #325CA3;
     font-size: 23px;
-    
 }
 
 .Icon i{
+    padding-right: 40px;
     transition:0.5s ease-in-out;
+}
+
+#Dropdown{
+    padding-right: 0px;
+    display: none;
 }
 
 
@@ -45,11 +50,40 @@
     margin-top: 20px;
     margin-left: 5%;
 }
+
+
+@media (max-width:400px){
+
+    .Icon{
+        font-size: 20px;
+    }
+
+    .Icon i:nth-child(n+1){
+         padding-right: 15px;
+    }
+    
+.img{
+    width:200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: -17px;
+  }
+}
+
+
 @media (max-width:1100px){
     .div{
         display: none;
     }
+    #Dropdown{
+        display: inline-block;
+    }
+    
 }
 .Icon i:hover{
     color:#f9556d;
 }
+
+
+
+
