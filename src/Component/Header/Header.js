@@ -31,7 +31,7 @@ export default class Header extends Component {
             <Neviagtion name="OurStory" />
             <Neviagtion name="SignIn" />
             <Button id={classes.Button} variant="contained">
-              Secondary
+              Requst A Demo
             </Button>
           </div>
         </div>
