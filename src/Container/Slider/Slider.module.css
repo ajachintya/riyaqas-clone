@@ -1,0 +1,46 @@
+.slider {
+    position: relative;
+}
+
+.slideShow {
+    margin-top: 90px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 475px;
+}
+
+.slideControl {
+    color: black;
+}
+
+.slidePrev {
+    border: 1px solid grey;
+    position: absolute;
+    top: 45%;
+    left: 10px;
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 50px;
+    z-index: 20;
+    height: 50px;
+}
+
+.slideNext {
+    border: 1px solid grey;
+    position: absolute;
+    top: 45%;
+    z-index: 20;
+    right: 10px;
+    background-color: white;
+    cursor: pointer;
+    opacity: 0.5;
+    border-radius: 50%;
+    color: black;
+    width: 50px;
+    height: 50px;
+}
+
+.slideNext:focus,.slidePrev:focus {outline:0;}

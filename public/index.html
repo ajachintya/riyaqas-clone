@@ -42,8 +42,18 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script>
       AOS.init();
+      var slider = tns({
+          container: '.my-slider',
+          items: 1,
+          mode: 'carousel',
+          controls: false,
+          nav: true,
+          navPosition: 'bottom',
+          navAsThumbnails: true
+      });
     </script>
   </body>
 </html>

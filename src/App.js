@@ -7,6 +7,7 @@ import ClientSay from './Container/ClientSay/ClientSay';
 import NewsLatter from './Component/NewsLatter/NewsLatter';
 import Intro from './Component/Intro/Intro';
 import WhatWeDo from './Component/WhatWeDo/WhatWeDo';
+import Slider from './Container/Slider/Slider';
 
 class App extends Component{
   state = {
@@ -33,6 +34,7 @@ class App extends Component{
     return (
       <div className="App">
         <Header stickey={this.state.stickey}/>
+        <Slider />
         <ServiceComponent />
         <Intro />
         <WhatWeDo />
