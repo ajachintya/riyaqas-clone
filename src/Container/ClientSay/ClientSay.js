@@ -24,34 +24,74 @@ class ClientSay extends Component{
 
     render(){
         return (
-            <div className={classes.mainClientSay}>
-                <div className={classes.clientSay}>
-                    <div className={classes.clientSaySlide} data-aos="fade-right" data-aos-duration="1500">
-                        <ClientCard slide={(this.state.slideNo)%3} user="Refule Mia" designation="CEO at craft" stars="5" content="Our support team will get assistance from AI-powered suggestions, making it quicker than ever to handle support requests." userImg={User}/>
-                        
-                        <ClientCard slide={(this.state.slideNo+1)%3} user="John Mojika" designation="CTO of Uxa" stars="4" content="Our support team will get assistance from AI-powered suggestions, making it quicker than ever to handle support requests." userImg={User2}/>
-                        
-                        <ClientCard slide={(this.state.slideNo+2)%3} user="Ema Wilson" designation="CEO at craft" stars="3" content="Our support team will get assistance from AI-powered suggestions, making it quicker than ever to handle support requests." userImg={User3}/>
-                    </div>
-                    <div className={classes.clientSayButton} data-aos="fade-in" data-aos-duration="1500">
-                        <button onClick={this.prevSlide}>
-                            <FontAwesomeIcon icon={faLongArrowAltLeft} />
-                        </button>
-                        <button onClick={this.nextSlide}>
-                            <FontAwesomeIcon icon={faLongArrowAltRight} />
-                        </button>
-                    </div>
+          <div className={classes.mainClientSay}>
+            <div className={classes.clientSay}>
+              <div
+                className={classes.clientSaySlide}
+                data-aos="fade-right"
+                data-aos-duration="1500"
+              >
+                <ClientCard
+                  slide={this.state.slideNo % 3}
+                  user="Refule Mia"
+                  designation="CEO at craft"
+                  stars="5"
+                  content="Our support team will get assistance from AI-powered suggestions, making it quicker than ever to handle support requests."
+                  userImg={User}
+                />
 
-                    <div className={classes.clientSayContent} data-aos="fade-down" data-aos-duration="1500">
-                        <div className={classes.clientSayHeading}>
-                            <div style={{display: 'inline',color: "#01358D"}}>What Our </div><div style={{color: "#F9556D",display: 'inline'}}>Client Say?</div>
-                        </div>
-                        <div className={classes.clientSayText}>
-                            Our support team will get assistance from AI-powered suggestions, making it quicker than ever to handle support requests. assistance from AI-powered
-                        </div>
-                    </div>
+                <ClientCard
+                  slide={(this.state.slideNo + 1) % 3}
+                  user="John Mojika"
+                  designation="CTO of Uxa"
+                  stars="4"
+                  content="Our support team will get assistance from AI-powered suggestions, making it quicker than ever to handle support requests."
+                  userImg={User2}
+                />
+
+                <ClientCard
+                  slide={(this.state.slideNo + 2) % 3}
+                  user="Ema Wilson"
+                  designation="CEO at craft"
+                  stars="3"
+                  content="Our support team will get assistance from AI-powered suggestions, making it quicker than ever to handle support requests."
+                  userImg={User3}
+                />
+              </div>
+              <div
+                className={classes.clientSayButton}
+                data-aos="fade-in"
+                data-aos-duration="1500"
+              >
+                <button onClick={this.prevSlide}>
+                  <FontAwesomeIcon icon={faLongArrowAltLeft} />
+                </button>
+                <button onClick={this.nextSlide}>
+                  <FontAwesomeIcon icon={faLongArrowAltRight} />
+                </button>
+              </div>
+
+              <div
+                className={classes.clientSayContent}
+                data-aos="fade-down"
+                data-aos-duration="1500"
+              >
+                <div className={classes.clientSayHeading}>
+                  <div style={{ display: "inline", color: "#643765" }}>
+                    What Our{" "}
+                  </div>
+                  <div style={{ color: "#F7CA39", display: "inline" }}>
+                    Client Say?
+                  </div>
                 </div>
+                <div className={classes.clientSayText}>
+                  Our support team will get assistance from AI-powered
+                  suggestions, making it quicker than ever to handle support
+                  requests. assistance from AI-powered
+                </div>
+              </div>
             </div>
+          </div>
         );
     }
 }

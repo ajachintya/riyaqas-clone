@@ -16,7 +16,7 @@
 
 .Geek{
     font-weight: 700;
-    color: #01358D;
+    color: #643765;
     
 }
 .Foot{
@@ -32,12 +32,13 @@
     box-shadow: 2px 2px 6px 0px grey;
     background-color:white;
      transition: 0.5s;
+     color:#643765;
 }
 
 .icon:hover{
    
     cursor: pointer;
-    color:#f9556d ;
+    color:#F7CA39;
 }   
 
 @media (max-width: 990px) {
