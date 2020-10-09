@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "//ajachintya.github.io/riyaqas-clone/precache-manifest.48d4135f076d6e6652d6e99e4eb872d7.js"
+  "//ajachintya.github.io/riyaqas-clone/precache-manifest.74c799ccd31076f98dcf7386dd689681.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -35,5 +35,5 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("//ajachintya.github.io/riyaqas-clone/index.html"), {
   
-  blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
+  blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
