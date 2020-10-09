@@ -54,6 +54,7 @@
 @media (max-width: 600px){
     .Nav{
       display:flex;
-      justify-content:space-between;
+      justify-content:space-around;
+      flex-wrap: wrap;
     }
 }
