@@ -58,3 +58,12 @@
 .slideImg {
     width: 50%;
 }
+
+@media (max-width: 745px){
+    .slideImg {
+        width: 0%;
+    }
+    .slideContent {
+        width: 100%;
+    }
+}
