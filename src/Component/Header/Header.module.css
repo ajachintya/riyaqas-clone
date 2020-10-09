@@ -54,9 +54,15 @@
 }
 
 #Button{
+    background-color: #643765;
+    color: white;
     margin-left: 50px;
     height:40px;
     margin-top: 25px;
+    transition: 0.5s ease-in-out;
+}
+#Button:hover{
+    background-color: #F7CA39;
 }
 /* 
 @media(max-width:400px){

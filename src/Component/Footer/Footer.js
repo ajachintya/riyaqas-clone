@@ -1,5 +1,5 @@
 import React from 'react'
-import photo from '../../assets/images/Screenshot (28).png'
+import photo from '../../assets/images/Screenshot (31).png'
 import classes from './Footer.module.css'
 import Neviagtion from "../Header/Navigation/Navigation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -16,12 +16,10 @@ export default function Footer() {
           quicker than ever to handle support requests.
         </p>
         <div className={classes.Nav}>
-          <Neviagtion name="Home" />
-          <Neviagtion name="Shop" />
-          <Neviagtion name="Blog" />
-          <Neviagtion name="Pages" />
-          <Neviagtion name="Career" />
-          <Neviagtion name="Contact" />
+          <Neviagtion name="Product" />
+          <Neviagtion name="Pricing" />
+          <Neviagtion name="Our Story" />
+          <Neviagtion name="SignIn" />
         </div>
         <div className={classes.Foot}>
           <div style={{ fontWeight: "700" }}>

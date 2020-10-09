@@ -27,8 +27,10 @@ export default class Header extends Component {
           </div>
           <div className={classes.div}>
             <Neviagtion name="Product" />
+            <Neviagtion name="Pricing" />
+            <Neviagtion name="OurStory" />
             <Neviagtion name="SignIn" />
-            <Button id={classes.Button} variant="contained" color="secondary">
+            <Button id={classes.Button} variant="contained">
               Secondary
             </Button>
           </div>
