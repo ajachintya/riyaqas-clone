@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Header from './Component/Header/Header';
 import Footer from './Component/Footer/Footer'
 import './App.css';
-import WhyUs from './Component/WhyUs/WhyUs';
+import Abilities from './Component/Abilities/Abilities';
 import ServiceComponent from './Component/ServiceComponent/ServiceComponent';
 import ClientSay from './Container/ClientSay/ClientSay';
 import NewsLatter from './Component/NewsLatter/NewsLatter';
@@ -34,13 +34,13 @@ class App extends Component{
   render() {
     return (
       <div className="App">
-        <Header stickey={this.state.stickey}/>
+        <Header stickey={this.state.stickey} />
         <Slider />
         <ServiceComponent />
         <Intro />
         <WhatWeDo />
         <ClientSay />
-        <WhyUs />
+        <Abilities />
         <NewsLatter />
         <Footer />
       </div>
