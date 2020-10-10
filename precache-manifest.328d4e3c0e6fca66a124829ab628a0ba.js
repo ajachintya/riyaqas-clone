@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4ef9baec7f17ab03d4b9aa7495fd2391",
+    "revision": "910c7a6413927dfac60f3f34e456e18c",
     "url": "//ajachintya.github.io/riyaqas-clone/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "//ajachintya.github.io/riyaqas-clone/static/css/2.78edd654.chunk.css"
   },
   {
-    "revision": "71aea68fb693c294ea98",
-    "url": "//ajachintya.github.io/riyaqas-clone/static/css/main.7f96fa9a.chunk.css"
+    "revision": "80567df1cf4f63346148",
+    "url": "//ajachintya.github.io/riyaqas-clone/static/css/main.25b50c37.chunk.css"
   },
   {
     "revision": "4faa6ec727761b912371",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "//ajachintya.github.io/riyaqas-clone/static/js/2.7a88a0c7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "71aea68fb693c294ea98",
-    "url": "//ajachintya.github.io/riyaqas-clone/static/js/main.d68a51fc.chunk.js"
+    "revision": "80567df1cf4f63346148",
+    "url": "//ajachintya.github.io/riyaqas-clone/static/js/main.72fdbeb5.chunk.js"
   },
   {
     "revision": "a311f2320b60e819ae84",
