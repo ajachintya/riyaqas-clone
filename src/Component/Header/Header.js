@@ -25,6 +25,7 @@ export default class Header extends Component {
           <div>
             <img className={classes.img} src={photo} alt="logo"></img>
           </div>
+          <i id={classes.ham} class="fa fa-bars"></i>
           <div className={classes.div}>
             <Neviagtion name="Product" />
             <Neviagtion name="Pricing" />
