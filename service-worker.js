@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "//ajachintya.github.io/riyaqas-clone/precache-manifest.53e1202c169f7c5b50e8abcead35853c.js"
+  "//ajachintya.github.io/riyaqas-clone/precache-manifest.c19071e6c9b829f010ac4a9516570c80.js"
 );
 
 self.addEventListener('message', (event) => {
