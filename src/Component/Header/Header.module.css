@@ -41,11 +41,48 @@
     color: white;
     margin-left: 50px;
     height:40px;
+    /* width: 100px; */
     margin-top: 25px;
     transition: 0.5s ease-in-out;
 }
 #Button:hover{
     background-color: #F7CA39;
+}
+
+.droplist {
+    transition: 0.5s ease-in-out;
+    position: absolute;
+    background-color: rgba(255,255,255);
+    right: 0px;
+    top: 90px;
+    width: 100%;
+    display: none;
+    justify-content: end;
+    flex-direction: column;
+    box-shadow: 0px 10px 10px 0px rgb(231, 231, 231);
+}
+
+.btnContain {
+    width: 90%;
+    position: relative;
+    display: flex;
+    padding: 10px 0px;
+    justify-content: flex-end;
+}
+
+.droplist button {
+    width: 200px;
+    margin: 0px !important;
+}
+
+.show {
+    display: flex;
+    animation: listShow 0.4s 1;
+}
+
+@keyframes listShow {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 @media (max-width:1000px){
@@ -62,8 +99,12 @@
     .div{
         display: none;
     }
-   
+}
 
+@media (min-width: 1000px){
+    .droplist {
+        display: none;
+    }
 }
 
 

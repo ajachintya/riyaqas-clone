@@ -3,12 +3,24 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 90px;
-    font-family: sans-serif;
     margin-left: 50px;
     transition: all .3s ease-in-out;
 }
 
 .Nevigation:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #643765;   
+}
+
+.dropitem {
+    text-align: end;
+    padding: 10px 10%;
+    color: #F7CA39;
+    font-weight: bold;
+}
+
+.dropitem:hover{
     cursor: pointer;
     text-decoration: underline;
     color: #643765;   
