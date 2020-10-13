@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8685da6609fd91bbdf9e1816a0a43700",
+    "revision": "e4d4190e1d0757535994d7785a948066",
     "url": "//ajachintya.github.io/riyaqas-clone/index.html"
   },
   {
-    "revision": "4faa6ec727761b912371",
+    "revision": "6ca12aa1d339056f27c4",
     "url": "//ajachintya.github.io/riyaqas-clone/static/css/2.78edd654.chunk.css"
   },
   {
-    "revision": "4f7991ab1171689d37e7",
-    "url": "//ajachintya.github.io/riyaqas-clone/static/css/main.c6a885c4.chunk.css"
+    "revision": "2229b23d948aa2582ec2",
+    "url": "//ajachintya.github.io/riyaqas-clone/static/css/main.3d7532f0.chunk.css"
   },
   {
-    "revision": "4faa6ec727761b912371",
-    "url": "//ajachintya.github.io/riyaqas-clone/static/js/2.7a88a0c7.chunk.js"
+    "revision": "6ca12aa1d339056f27c4",
+    "url": "//ajachintya.github.io/riyaqas-clone/static/js/2.f88fae3a.chunk.js"
   },
   {
     "revision": "f7def617c168a3e9270f21ef8a75c08f",
-    "url": "//ajachintya.github.io/riyaqas-clone/static/js/2.7a88a0c7.chunk.js.LICENSE.txt"
+    "url": "//ajachintya.github.io/riyaqas-clone/static/js/2.f88fae3a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4f7991ab1171689d37e7",
-    "url": "//ajachintya.github.io/riyaqas-clone/static/js/main.87a738ec.chunk.js"
+    "revision": "2229b23d948aa2582ec2",
+    "url": "//ajachintya.github.io/riyaqas-clone/static/js/main.e0652605.chunk.js"
   },
   {
     "revision": "a311f2320b60e819ae84",
