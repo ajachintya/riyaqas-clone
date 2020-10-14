@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e4d4190e1d0757535994d7785a948066",
+    "revision": "8140c25bccf9ee6e765febb64a48602a",
     "url": "//ajachintya.github.io/riyaqas-clone/index.html"
   },
   {
-    "revision": "6ca12aa1d339056f27c4",
+    "revision": "1dc1192efa11f648d7da",
     "url": "//ajachintya.github.io/riyaqas-clone/static/css/2.78edd654.chunk.css"
   },
   {
-    "revision": "2229b23d948aa2582ec2",
-    "url": "//ajachintya.github.io/riyaqas-clone/static/css/main.3d7532f0.chunk.css"
+    "revision": "f8d573a0fbe259a67738",
+    "url": "//ajachintya.github.io/riyaqas-clone/static/css/main.253f337d.chunk.css"
   },
   {
-    "revision": "6ca12aa1d339056f27c4",
-    "url": "//ajachintya.github.io/riyaqas-clone/static/js/2.f88fae3a.chunk.js"
+    "revision": "1dc1192efa11f648d7da",
+    "url": "//ajachintya.github.io/riyaqas-clone/static/js/2.80c1786d.chunk.js"
   },
   {
     "revision": "f7def617c168a3e9270f21ef8a75c08f",
-    "url": "//ajachintya.github.io/riyaqas-clone/static/js/2.f88fae3a.chunk.js.LICENSE.txt"
+    "url": "//ajachintya.github.io/riyaqas-clone/static/js/2.80c1786d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2229b23d948aa2582ec2",
-    "url": "//ajachintya.github.io/riyaqas-clone/static/js/main.e0652605.chunk.js"
+    "revision": "f8d573a0fbe259a67738",
+    "url": "//ajachintya.github.io/riyaqas-clone/static/js/main.1c470999.chunk.js"
   },
   {
     "revision": "a311f2320b60e819ae84",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dc1d99fd66107930b28d4b62810fc6cd",
     "url": "//ajachintya.github.io/riyaqas-clone/static/media/WhatWeDo.dc1d99fd.jpg"
+  },
+  {
+    "revision": "76f2512389a4287926d76b3353d20694",
+    "url": "//ajachintya.github.io/riyaqas-clone/static/media/browser.76f25123.jpg"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
