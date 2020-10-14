@@ -9,6 +9,7 @@ import NewsLatter from './Component/NewsLatter/NewsLatter';
 import Intro from './Component/Intro/Intro';
 import WhatWeDo from './Component/WhatWeDo/WhatWeDo';
 import Slider from './Container/Slider/Slider';
+import SupportedBrowser from './Component/SupportedBrowser/SupportedBrowser';
 
 class App extends Component{
   state = {
@@ -41,6 +42,7 @@ class App extends Component{
         <WhatWeDo />
         <ClientSay />
         <Abilities />
+        <SupportedBrowser />
         <NewsLatter />
         <Footer />
       </div>
