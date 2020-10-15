@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8140c25bccf9ee6e765febb64a48602a",
+    "revision": "86beba81a386a4a70bb128fbd49528e8",
     "url": "//ajachintya.github.io/riyaqas-clone/index.html"
   },
   {
-    "revision": "1dc1192efa11f648d7da",
+    "revision": "440786d0e10e6476d721",
     "url": "//ajachintya.github.io/riyaqas-clone/static/css/2.78edd654.chunk.css"
   },
   {
-    "revision": "f8d573a0fbe259a67738",
-    "url": "//ajachintya.github.io/riyaqas-clone/static/css/main.253f337d.chunk.css"
+    "revision": "29425430577dd9fba569",
+    "url": "//ajachintya.github.io/riyaqas-clone/static/css/main.0ebf2ca9.chunk.css"
   },
   {
-    "revision": "1dc1192efa11f648d7da",
-    "url": "//ajachintya.github.io/riyaqas-clone/static/js/2.80c1786d.chunk.js"
+    "revision": "440786d0e10e6476d721",
+    "url": "//ajachintya.github.io/riyaqas-clone/static/js/2.3097fb9f.chunk.js"
   },
   {
     "revision": "f7def617c168a3e9270f21ef8a75c08f",
-    "url": "//ajachintya.github.io/riyaqas-clone/static/js/2.80c1786d.chunk.js.LICENSE.txt"
+    "url": "//ajachintya.github.io/riyaqas-clone/static/js/2.3097fb9f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f8d573a0fbe259a67738",
-    "url": "//ajachintya.github.io/riyaqas-clone/static/js/main.1c470999.chunk.js"
+    "revision": "29425430577dd9fba569",
+    "url": "//ajachintya.github.io/riyaqas-clone/static/js/main.5011be4f.chunk.js"
   },
   {
     "revision": "a311f2320b60e819ae84",
@@ -62,6 +62,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f51d54a1565ea40c4df3861d92924c8c",
     "url": "//ajachintya.github.io/riyaqas-clone/static/media/serviceBg-2.f51d54a1.jpg"
+  },
+  {
+    "revision": "e7e2c24b84cb91ac08b8b10326d6381d",
+    "url": "//ajachintya.github.io/riyaqas-clone/static/media/slideshow1.e7e2c24b.jpg"
+  },
+  {
+    "revision": "852568e9b2c4564b4fa2cb24949e7a11",
+    "url": "//ajachintya.github.io/riyaqas-clone/static/media/slideshow2.852568e9.jpg"
+  },
+  {
+    "revision": "80b8f8b1671fec21510500a893d49a44",
+    "url": "//ajachintya.github.io/riyaqas-clone/static/media/slideshow3.80b8f8b1.jpg"
   },
   {
     "revision": "e45005580e28507efb35527682fcd786",
