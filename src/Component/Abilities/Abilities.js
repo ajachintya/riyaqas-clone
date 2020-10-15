@@ -14,7 +14,7 @@ export default function WhyUs() {
         <h1>PrincetonTV Abilities</h1>
         <div
           className={classes.Cards}
-          data-aos="fade-left"
+          data-aos="fade-right"
           data-aos-duration="1300"
         >
           <Cards
