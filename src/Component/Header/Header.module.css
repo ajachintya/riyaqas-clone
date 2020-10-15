@@ -55,7 +55,7 @@
 .droplist {
     transition: 0.5s ease-in-out;
     position: absolute;
-    background-color: rgba(255,255,255);
+     background-image:linear-gradient(to right,#5A54F0,#9802FF) ;
     right: 0px;
     top: 90px;
     width: 100%;
