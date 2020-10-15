@@ -20,14 +20,24 @@ class Slider extends Component{
         this.setState({slide: (slide+1)%3});
     }
 
+
     render() {
+        var slideShow = <div className={classes.slideShow} style={{height: this.props.height}}>
+                        <Slide slide={(this.state.slide)%3} slideImg={SlideImg2} heading="Most Advantage Technology" text="Dummy Text"/>
+                        <Slide slide={(this.state.slide+1)%3} slideImg={SlideImg1} heading="Most Advantage Technology" text="A dedicated manager & team of support personnel help manage your virtual conference every step of the way"/>
+                        <Slide slide={(this.state.slide+2)%3} slideImg={SlideImg2} heading="Most Advantage Technology" text="Dummy Text"/>
+                    </div>
+        if(this.props.slide1 !== undefined){
+            slideShow = <div className={classes.slideShow} style={{height: this.props.height}}>
+                            <Slide slide={(this.state.slide)%3} slideImg={this.props.slide1}/>
+                            <Slide slide={(this.state.slide+1)%3} slideImg={this.props.slide2}/>
+                            <Slide slide={(this.state.slide+2)%3} slideImg={this.props.slide3}/>
+                        </div>
+        }
+
         return (
             <div className={classes.slider}>
-                <div className={classes.slideShow}>
-                    <Slide slide={(this.state.slide)%3} slideImg={SlideImg2} heading="Most Advantage Technology" text="Dummy Text"/>
-                    <Slide slide={(this.state.slide+1)%3} slideImg={SlideImg1} heading="Most Advantage Technology" text="A dedicated manager & team of support personnel help manage your virtual conference every step of the way"/>
-                    <Slide slide={(this.state.slide+2)%3} slideImg={SlideImg2} heading="Most Advantage Technology" text="Dummy Text"/>
-                </div>
+                {slideShow}
                 <div className={classes.slideControl}>
                     <button className={classes.slidePrev} onClick={this.slidePrev}>
                         <FontAwesomeIcon icon={faLongArrowAltLeft} />

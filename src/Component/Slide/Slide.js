@@ -12,20 +12,31 @@ const Slider = (props) => {
     }
     slide = slide.join(' ');
 
-    return (
-        <div className={slide}>
-            <div className={classes.slideContent}>
-                <div className={classes.slideHead}>
-                    {props.heading}
-                </div>
-                <div className={classes.slideText}>
-                    {props.text}
-                </div>
-            </div>
-            <div style={{ backgroundImage: `url(${props.slideImg})`,backgroundSize: 'cover' }} className={classes.slideImg}>
+    var slideDOM =  <div className={slide}>
+                        <div style={{ backgroundImage: `url(${props.slideImg})`,backgroundSize: 'cover',width: '100%' }} className={classes.slideImg}>
 
-            </div>
-        </div>     
+                        </div>
+                    </div>   
+    if(props.heading !== undefined){
+        slideDOM =  <div className={slide}>
+                        <div className={classes.slideContent}>
+                            <div className={classes.slideHead}>
+                                {props.heading}
+                            </div>
+                            <div className={classes.slideText}>
+                                {props.text}
+                            </div>
+                        </div>
+                        <div style={{ backgroundImage: `url(${props.slideImg})`,backgroundSize: 'cover' }} className={classes.slideImg}>
+
+                        </div>
+                    </div> 
+    }
+
+    return (
+        <div>
+            {slideDOM}
+        </div>  
     );
 }
 

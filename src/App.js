@@ -9,7 +9,13 @@ import NewsLatter from './Component/NewsLatter/NewsLatter';
 import Intro from './Component/Intro/Intro';
 import WhatWeDo from './Component/WhatWeDo/WhatWeDo';
 import Slider from './Container/Slider/Slider';
+import SlideShow from './Container/SlideShow/SlideShow';
 import SupportedBrowser from './Component/SupportedBrowser/SupportedBrowser';
+
+//Slideshow Assets
+import slide1 from './assets/images/slideshow1.jpg';
+import slide2 from './assets/images/slideshow2.jpg';
+import slide3 from './assets/images/slideshow3.jpg';
 
 class App extends Component{
   state = {
@@ -24,6 +30,13 @@ class App extends Component{
     window.removeEventListener('scroll', this.handleScroll);
   }
 
+  shouldComponentUpdate(nextProps, nextState) {
+    if(nextState.stickey===this.state.stickey){
+      return false;
+    }
+    return true;
+  }
+
   handleScroll = () => {
     if(window.scrollY === 0){
       this.setState({stickey: false});
@@ -36,7 +49,13 @@ class App extends Component{
     return (
       <div className="App">
         <Header stickey={this.state.stickey} />
-        <Slider />
+        <Slider height="475px"/>
+        <SlideShow 
+          heading="Basic Features" 
+          slide1={slide1} 
+          slide2={slide2} 
+          slide3={slide3}
+        />
         <ServiceComponent />
         <Intro />
         <WhatWeDo />

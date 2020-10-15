@@ -1,0 +1,77 @@
+.slideShowHead {
+    font-size: 2.7rem;
+    width: 100%;
+    text-align: center;
+    margin: 50px 0px;
+    font-weight: bold;
+}
+
+.slideShow {
+    height: 560px;
+    width: 1170px;
+    margin: auto;
+    position: relative;
+    display: flex;
+}
+
+.aside1 {
+    width: 18%;
+    overflow: hidden;
+    position: relative;
+}
+
+.aside1 div {
+    background-color: aquamarine;
+    height: 30.666%;
+    margin: 5.5% 4%;
+    border-radius: 10px;
+    position: relative;
+    animation: mySlide1 7s infinite linear;
+}
+
+.aside2 {
+    width: 18%;
+    overflow: hidden;
+}
+
+.aside2 div {
+    background-color: aquamarine;
+    height: 30.666%;
+    margin: 5.5% 4%;
+    border-radius: 10px;
+    position: relative;
+    top: -98.5%;
+    animation: mySlide2 7s infinite linear;
+}
+
+.aside1:hover div {
+    animation-play-state: paused;
+}
+
+.aside2:hover div {
+    animation-play-state: paused;
+}
+
+.mainSlide {
+    width: 64%;
+}
+
+@keyframes mySlide1 {
+    from {
+        top: 0%;
+    }
+
+    to {
+        top: -98.5%;
+    }
+}
+
+@keyframes mySlide2 {
+    from {
+        top: -98.5%;
+    }
+
+    to {
+        top: 0%;
+    }
+}
