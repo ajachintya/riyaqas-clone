@@ -12,7 +12,11 @@ export default function WhyUs() {
     return (
       <div className={classes.WhyUs}>
         <h1>PrincetonTV Abilities</h1>
-        <div className={classes.Cards}>
+        <div
+          className={classes.Cards}
+          data-aos="fade-left"
+          data-aos-duration="1300"
+        >
           <Cards
             title="Security"
             photo={img}

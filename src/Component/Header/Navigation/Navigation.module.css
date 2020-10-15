@@ -1,5 +1,5 @@
 .Nevigation{
-    color: #F7CA39;
+    color: white;
     font-weight: 600;
     font-size: 20px;
     line-height: 90px;
@@ -10,13 +10,13 @@
 .Nevigation:hover{
     cursor: pointer;
     text-decoration: underline;
-    color: #643765;   
+    color:white;   
 }
 
 .dropitem {
     text-align: end;
     padding: 10px 10%;
-    color: #F7CA39;
+    color: white;
     font-weight: bold;
 }
 
