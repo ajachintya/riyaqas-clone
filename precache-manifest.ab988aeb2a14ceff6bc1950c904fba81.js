@@ -1,35 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b15de806344c564a8912e3f2a159d2e4",
+    "revision": "f4f1af548dddf3c02246bcb4d42c1b29",
     "url": "//ajachintya.github.io/riyaqas-clone/index.html"
   },
   {
-    "revision": "440786d0e10e6476d721",
+    "revision": "c29fcf217685f7dcbb93",
     "url": "//ajachintya.github.io/riyaqas-clone/static/css/2.78edd654.chunk.css"
   },
   {
-    "revision": "f585661f80c1a369414b",
-    "url": "//ajachintya.github.io/riyaqas-clone/static/css/main.ab38fa02.chunk.css"
+    "revision": "ef4d77faaeb3fb60c8f6",
+    "url": "//ajachintya.github.io/riyaqas-clone/static/css/main.10cbfd5e.chunk.css"
   },
   {
-    "revision": "440786d0e10e6476d721",
-    "url": "//ajachintya.github.io/riyaqas-clone/static/js/2.3097fb9f.chunk.js"
+    "revision": "c29fcf217685f7dcbb93",
+    "url": "//ajachintya.github.io/riyaqas-clone/static/js/2.0d06cd84.chunk.js"
   },
   {
     "revision": "f7def617c168a3e9270f21ef8a75c08f",
-    "url": "//ajachintya.github.io/riyaqas-clone/static/js/2.3097fb9f.chunk.js.LICENSE.txt"
+    "url": "//ajachintya.github.io/riyaqas-clone/static/js/2.0d06cd84.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f585661f80c1a369414b",
-    "url": "//ajachintya.github.io/riyaqas-clone/static/js/main.66b2ed8a.chunk.js"
+    "revision": "ef4d77faaeb3fb60c8f6",
+    "url": "//ajachintya.github.io/riyaqas-clone/static/js/main.b84096bf.chunk.js"
   },
   {
     "revision": "a311f2320b60e819ae84",
     "url": "//ajachintya.github.io/riyaqas-clone/static/js/runtime-main.5ce4e4ce.js"
   },
   {
-    "revision": "57fa5ee7cd6baa2e867d1861da116979",
-    "url": "//ajachintya.github.io/riyaqas-clone/static/media/Screenshot (31).57fa5ee7.png"
+    "revision": "7ac0f727c9380efcfffd003baa58d069",
+    "url": "//ajachintya.github.io/riyaqas-clone/static/media/Screenshot (36).7ac0f727.jpg"
+  },
+  {
+    "revision": "07f7987c329fed54a32015f30aff7982",
+    "url": "//ajachintya.github.io/riyaqas-clone/static/media/Screenshot (3fsd6).07f7987c.jpg"
   },
   {
     "revision": "dc1d99fd66107930b28d4b62810fc6cd",

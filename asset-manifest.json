@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "//ajachintya.github.io/riyaqas-clone/static/css/main.ab38fa02.chunk.css",
-    "main.js": "//ajachintya.github.io/riyaqas-clone/static/js/main.66b2ed8a.chunk.js",
-    "main.js.map": "//ajachintya.github.io/riyaqas-clone/static/js/main.66b2ed8a.chunk.js.map",
+    "main.css": "//ajachintya.github.io/riyaqas-clone/static/css/main.10cbfd5e.chunk.css",
+    "main.js": "//ajachintya.github.io/riyaqas-clone/static/js/main.b84096bf.chunk.js",
+    "main.js.map": "//ajachintya.github.io/riyaqas-clone/static/js/main.b84096bf.chunk.js.map",
     "runtime-main.js": "//ajachintya.github.io/riyaqas-clone/static/js/runtime-main.5ce4e4ce.js",
     "runtime-main.js.map": "//ajachintya.github.io/riyaqas-clone/static/js/runtime-main.5ce4e4ce.js.map",
     "static/css/2.78edd654.chunk.css": "//ajachintya.github.io/riyaqas-clone/static/css/2.78edd654.chunk.css",
-    "static/js/2.3097fb9f.chunk.js": "//ajachintya.github.io/riyaqas-clone/static/js/2.3097fb9f.chunk.js",
-    "static/js/2.3097fb9f.chunk.js.map": "//ajachintya.github.io/riyaqas-clone/static/js/2.3097fb9f.chunk.js.map",
+    "static/js/2.0d06cd84.chunk.js": "//ajachintya.github.io/riyaqas-clone/static/js/2.0d06cd84.chunk.js",
+    "static/js/2.0d06cd84.chunk.js.map": "//ajachintya.github.io/riyaqas-clone/static/js/2.0d06cd84.chunk.js.map",
     "index.html": "//ajachintya.github.io/riyaqas-clone/index.html",
-    "precache-manifest.3f010070b26a6512e1191c2c14b15b93.js": "//ajachintya.github.io/riyaqas-clone/precache-manifest.3f010070b26a6512e1191c2c14b15b93.js",
+    "precache-manifest.ab988aeb2a14ceff6bc1950c904fba81.js": "//ajachintya.github.io/riyaqas-clone/precache-manifest.ab988aeb2a14ceff6bc1950c904fba81.js",
     "service-worker.js": "//ajachintya.github.io/riyaqas-clone/service-worker.js",
     "static/css/2.78edd654.chunk.css.map": "//ajachintya.github.io/riyaqas-clone/static/css/2.78edd654.chunk.css.map",
-    "static/css/main.ab38fa02.chunk.css.map": "//ajachintya.github.io/riyaqas-clone/static/css/main.ab38fa02.chunk.css.map",
-    "static/js/2.3097fb9f.chunk.js.LICENSE.txt": "//ajachintya.github.io/riyaqas-clone/static/js/2.3097fb9f.chunk.js.LICENSE.txt",
-    "static/media/Screenshot (31).png": "//ajachintya.github.io/riyaqas-clone/static/media/Screenshot (31).57fa5ee7.png",
+    "static/css/main.10cbfd5e.chunk.css.map": "//ajachintya.github.io/riyaqas-clone/static/css/main.10cbfd5e.chunk.css.map",
+    "static/js/2.0d06cd84.chunk.js.LICENSE.txt": "//ajachintya.github.io/riyaqas-clone/static/js/2.0d06cd84.chunk.js.LICENSE.txt",
+    "static/media/Screenshot (36).jpg": "//ajachintya.github.io/riyaqas-clone/static/media/Screenshot (36).7ac0f727.jpg",
+    "static/media/Screenshot (3fsd6).jpg": "//ajachintya.github.io/riyaqas-clone/static/media/Screenshot (3fsd6).07f7987c.jpg",
     "static/media/WhatWeDo.jpg": "//ajachintya.github.io/riyaqas-clone/static/media/WhatWeDo.dc1d99fd.jpg",
     "static/media/browser.jpg": "//ajachintya.github.io/riyaqas-clone/static/media/browser.76f25123.jpg",
     "static/media/font-awesome.min.css": "//ajachintya.github.io/riyaqas-clone/static/media/fontawesome-webfont.fee66e71.woff",
@@ -28,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.5ce4e4ce.js",
     "static/css/2.78edd654.chunk.css",
-    "static/js/2.3097fb9f.chunk.js",
-    "static/css/main.ab38fa02.chunk.css",
-    "static/js/main.66b2ed8a.chunk.js"
+    "static/js/2.0d06cd84.chunk.js",
+    "static/css/main.10cbfd5e.chunk.css",
+    "static/js/main.b84096bf.chunk.js"
   ]
 }
