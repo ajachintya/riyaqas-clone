@@ -12,7 +12,7 @@ const ServiceComponent = () => {
     return (
       <div className="serviceComponent">
         <div className="heading" data-aos="fade-down" data-aos-duration="1200">
-          <div style={{ display: "inline", color: "#F7CA39 " }}>
+          <div style={{ display: "inline", color: "#B446FF" }}>
             Easy-To-Use
           </div>{" "}
           virtual conferencing software

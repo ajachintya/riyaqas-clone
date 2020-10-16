@@ -12,7 +12,7 @@ const WhatWeDo = (props) => {
         >
           <div className={classes.whatWeDoHead}>
             What we{" "}
-            <div style={{ display: "inline", color: "#F7CA39" }}>DO?</div>
+            <div style={{ display: "inline", color: "#B446FF" }}>DO?</div>
           </div>
           <div className={classes.whatWeDoText}>
             At Princeton Hive, we have put in a lot of thought and effort to

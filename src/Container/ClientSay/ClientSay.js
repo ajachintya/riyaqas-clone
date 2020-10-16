@@ -77,10 +77,10 @@ class ClientSay extends Component{
                 data-aos-duration="1500"
               >
                 <div className={classes.clientSayHeading}>
-                  <div style={{ display: "inline", color: "#643765" }}>
+                  <div style={{ display: "inline", color: "#000000" }}>
                     What Our{" "}
                   </div>
-                  <div style={{ color: "#F7CA39", display: "inline" }}>
+                  <div style={{ color: "#B446FF", display: "inline" }}>
                     Client Say?
                   </div>
                 </div>

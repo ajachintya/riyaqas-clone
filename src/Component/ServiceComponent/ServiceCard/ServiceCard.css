@@ -15,7 +15,7 @@
 
 .cardHeading {
     font-size: 1.35rem;
-    color: #643765;
+    color: black;
     font-weight: bold;
 }
 
@@ -37,8 +37,8 @@
 }
 
 .serviceCard:hover .cardArrow {
-    border-left: 2px solid #F7CA39 ;
-    color: #F7CA39 ;
+    border-left: 2px solid #B446FF ;
+    color: #B446FF ;
     margin-left: -15px;
     margin-right: 0px;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import photo from '../../assets/images/Screenshot (31).png'
+import photo from '../../assets/images/Screenshot (3fsd6).jpg'
 import classes from './Footer.module.css'
 import Neviagtion from "../Header/Navigation/Navigation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -11,7 +11,7 @@ export default function Footer() {
     return (
       <div className={classes.Footer}>
         <img src={photo} alt="logo"></img>
-        <p style={{ color: "grey" }}>
+        <p style={{ color: "white" }}>
           Our support team will get assistance from AI-powered, making it
           quicker than ever to handle support requests.
         </p>
@@ -23,11 +23,11 @@ export default function Footer() {
         </div>
         <div className={classes.Foot}>
           <div style={{ fontWeight: "700" }}>
-            <spam style={{ color: "grey" }}>
+            <spam style={{ color: "white" }}>
               &#169; Riyaqas 2020 All rights reserved, Powered with &nbsp;
             </spam>
-            <FontAwesomeIcon style={{ color: "#f9556d" }} icon={faHeart} />{" "}
-            &nbsp; <spam style={{ color: "grey" }}>by</spam>{" "}
+            <FontAwesomeIcon style={{ color: "#B446FF" }} icon={faHeart} />{" "}
+            &nbsp; <spam style={{ color: "white" }}>by</spam>{" "}
             <spam className={classes.Geek}>Codingeek.</spam>
           </div>
           <div className={classes.iconParent}>

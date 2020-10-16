@@ -29,9 +29,9 @@
 }
 
 .img{
-    width:150px;
-    height: 50px;
-    margin-top: 20px;
+    width:140px;
+    height: 70px;
+    margin-top: 13px;
     margin-left: 5%;
 }
 #ham{
@@ -48,8 +48,8 @@
     transition: 0.5s ease-in-out;
 }
 #Button:hover{
-    background-color:white;
-    color: black;
+    background-image:linear-gradient(to right,#5A54F0,#B344FF) ;
+    /*  color: black; */
 }
 
 .droplist {
@@ -90,14 +90,14 @@
 
 @media (max-width:1000px){
     #ham{
-        color: #F7CA39;
+        color: white;
         display:inline-block;
         margin-top:30px ;
         font-size: 30px;
         transition: 0.5s ease-in-out;
     }
     #ham:hover{
-        color:#643765 ;
+        color:black ;
     }
     .div{
         display: none;

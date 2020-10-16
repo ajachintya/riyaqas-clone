@@ -10,7 +10,7 @@
 .Nevigation:hover{
     cursor: pointer;
     text-decoration: underline;
-    color:white;   
+    color:black;   
 }
 
 .dropitem {
@@ -23,7 +23,7 @@
 .dropitem:hover{
     cursor: pointer;
     text-decoration: underline;
-    color: #643765;   
+    color: black;   
 }
 
 @media(max-width:510px){

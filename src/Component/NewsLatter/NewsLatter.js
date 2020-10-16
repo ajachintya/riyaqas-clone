@@ -10,7 +10,7 @@ export default function NewsLatter() {
       >
         <div>
           <h1 className={classes.Heading}>
-            Get our latest <spam style={{ color: "#F7CA39" }}>Newslatter</spam>
+            Get our latest <spam style={{ color: "#B446FF" }}>Newslatter</spam>
           </h1>
           <p style={{ color: "grey" }}>
             Offer your business with the best assistance for growth.

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import classes from "./Header.module.css";
-import photo from '../../assets/images/Screenshot (31).png';
+import photo from '../../assets/images/Screenshot (36).jpg';
 import Neviagtion from './Navigation/Navigation';
 import "font-awesome/css/font-awesome.min.css";
 import { Button } from '@material-ui/core';
@@ -41,10 +41,8 @@ export default class Header extends Component {
           </div>
           {dropicon}
           <div className={droplistClass}>
-            <Neviagtion name="Product" droplist="true"/>
-            <Neviagtion name="Pricing" droplist="true"/>
-            <Neviagtion name="OurStory" droplist="true"/>
-            <Neviagtion name="SignIn" droplist="true"/>
+            <Neviagtion name="Home" droplist="true"/>
+            <Neviagtion name="Contact" droplist="true"/>
             <div className={classes.btnContain}>
                 <Button id={classes.Button} variant="contained">
                   Request A Demo
@@ -52,13 +50,11 @@ export default class Header extends Component {
             </div>
           </div>
           <div className={classes.div}>
-            <Neviagtion name="Product" />
-            <Neviagtion name="Pricing" />
-            <Neviagtion name="OurStory" />
-            <Neviagtion name="SignIn" />
+            <Neviagtion name="Home" />
+            <Neviagtion name="Contact" />
             <Button id={classes.Button} variant="contained">
-              Request A Demo
-            </Button>
+              Sign Up!
+                          </Button>
           </div>
         </div>
       </div>
