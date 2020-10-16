@@ -54,7 +54,7 @@ export default class Header extends Component {
             <Neviagtion name="Contact" />
             <Button id={classes.Button} variant="contained">
               Sign Up!
-                          </Button>
+            </Button>
           </div>
         </div>
       </div>
