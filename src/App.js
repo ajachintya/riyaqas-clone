@@ -11,6 +11,7 @@ import WhatWeDo from './Component/WhatWeDo/WhatWeDo';
 import Slider from './Container/Slider/Slider';
 import SlideShow from './Container/SlideShow/SlideShow';
 import SupportedBrowser from './Component/SupportedBrowser/SupportedBrowser';
+import RequestDemo from './Component/RequestDemo/RequestDemo';
 
 //Slideshow Assets
 import slide1 from './assets/images/slideshow1.jpg';
@@ -62,6 +63,7 @@ class App extends Component{
         <ClientSay />
         <Abilities />
         <SupportedBrowser />
+        <RequestDemo />
         <NewsLatter />
         <Footer />
       </div>

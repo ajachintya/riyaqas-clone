@@ -1,0 +1,9 @@
+.Request{
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+}
+
+.img{
+    height: 100px;
+}
