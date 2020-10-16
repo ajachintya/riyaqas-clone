@@ -1,5 +1,5 @@
 import React from 'react'
-import photo from '../../assets/images/Screenshot (3fsd6).jpg'
+import photo from '../../assets/images/logobg.png'
 import classes from './Footer.module.css'
 import Neviagtion from "../Header/Navigation/Navigation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

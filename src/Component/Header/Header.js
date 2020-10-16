@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import classes from "./Header.module.css";
-import photo from '../../assets/images/Screenshot (36).jpg';
+import photo from '../../assets/images/logobg.png';
 import Neviagtion from './Navigation/Navigation';
 import "font-awesome/css/font-awesome.min.css";
 import { Button } from '@material-ui/core';

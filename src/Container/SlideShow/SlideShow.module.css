@@ -75,3 +75,21 @@
         top: 0%;
     }
 }
+
+@media (max-width: 1170px){
+    .aside1 {
+        display: none;
+    }
+
+    .aside2 {
+        display: none;
+    }
+
+    .slideShow {
+        width: 100%;
+    }
+
+    .mainSlide {
+        width: 100%;
+    }
+}
