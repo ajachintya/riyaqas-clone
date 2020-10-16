@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "//ajachintya.github.io/riyaqas-clone/static/css/main.cfa8255d.chunk.css",
+    "main.css": "//ajachintya.github.io/riyaqas-clone/static/css/main.fcd09c14.chunk.css",
     "main.js": "//ajachintya.github.io/riyaqas-clone/static/js/main.e38536e2.chunk.js",
     "main.js.map": "//ajachintya.github.io/riyaqas-clone/static/js/main.e38536e2.chunk.js.map",
     "runtime-main.js": "//ajachintya.github.io/riyaqas-clone/static/js/runtime-main.5ce4e4ce.js",
@@ -9,10 +9,10 @@
     "static/js/2.94b17ce1.chunk.js": "//ajachintya.github.io/riyaqas-clone/static/js/2.94b17ce1.chunk.js",
     "static/js/2.94b17ce1.chunk.js.map": "//ajachintya.github.io/riyaqas-clone/static/js/2.94b17ce1.chunk.js.map",
     "index.html": "//ajachintya.github.io/riyaqas-clone/index.html",
-    "precache-manifest.4d7412c2aa3c72f2fa02466880c2775e.js": "//ajachintya.github.io/riyaqas-clone/precache-manifest.4d7412c2aa3c72f2fa02466880c2775e.js",
+    "precache-manifest.fab617e826282452fb7daa11416486a1.js": "//ajachintya.github.io/riyaqas-clone/precache-manifest.fab617e826282452fb7daa11416486a1.js",
     "service-worker.js": "//ajachintya.github.io/riyaqas-clone/service-worker.js",
     "static/css/2.78edd654.chunk.css.map": "//ajachintya.github.io/riyaqas-clone/static/css/2.78edd654.chunk.css.map",
-    "static/css/main.cfa8255d.chunk.css.map": "//ajachintya.github.io/riyaqas-clone/static/css/main.cfa8255d.chunk.css.map",
+    "static/css/main.fcd09c14.chunk.css.map": "//ajachintya.github.io/riyaqas-clone/static/css/main.fcd09c14.chunk.css.map",
     "static/js/2.94b17ce1.chunk.js.LICENSE.txt": "//ajachintya.github.io/riyaqas-clone/static/js/2.94b17ce1.chunk.js.LICENSE.txt",
     "static/media/WhatWeDo.jpg": "//ajachintya.github.io/riyaqas-clone/static/media/WhatWeDo.dc1d99fd.jpg",
     "static/media/bg.jpg": "//ajachintya.github.io/riyaqas-clone/static/media/bg.cf55b8a9.jpg",
@@ -31,7 +31,7 @@
     "static/js/runtime-main.5ce4e4ce.js",
     "static/css/2.78edd654.chunk.css",
     "static/js/2.94b17ce1.chunk.js",
-    "static/css/main.cfa8255d.chunk.css",
+    "static/css/main.fcd09c14.chunk.css",
     "static/js/main.e38536e2.chunk.js"
   ]
 }
