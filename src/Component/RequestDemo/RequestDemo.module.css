@@ -1,32 +1,22 @@
-.Request{
-    display: flex;
-    flex-direction: column;
-}
-
 .second{
     text-align: center;
-    flex-wrap: wrap;
-    margin-top: 40px;
+    margin: 40px auto;
     display: flex;
-    width: 99%;
+    width: 80%;
     justify-content: space-evenly;
 }
 
 .div2{
-    height: 625px;
-    padding:10px
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .img{
     padding:10px;
-    width: 700px;
-    height: 625px;
-}
-
-.img img{
-    box-shadow: 0px 4px 4px 0px grey;
-    height: 100%;
     width: 500px;
+    height: 375px;
 }
 
 .img2{
@@ -41,3 +31,17 @@
     height: auto;
 }
 
+@media (max-width: 1040px){
+    .second {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .img{
+        width: 100%;
+        height: 250px;
+        background-position: 50%;
+        filter: blur(2px);
+        margin: 30px 0px;
+    }
+}
